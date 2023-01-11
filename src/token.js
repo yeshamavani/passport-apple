@@ -51,7 +51,6 @@ class AppleClientSecret {
         {
           algorithm: "ES256",
           keyid,
-          allowInsecureKeySizes: true,
         },
         (err, token) => {
           if (err) {
